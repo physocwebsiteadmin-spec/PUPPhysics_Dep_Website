@@ -1,0 +1,16 @@
+.section {
+    min-height: 100vh;
+    min-width: 100vh;}
+
+#top-section {
+    background-position: center top;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center top;
+    overflow-anchor: auto;}
+
+#bot-section {
+    background-position: center top;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center top;}
