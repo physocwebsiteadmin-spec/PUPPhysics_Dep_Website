@@ -6,14 +6,14 @@ function closeModal(id) {
 }
 
 document.getElementById('link1').onclick = () => openModal('modal1');
-document.getElementById('link2').onclick = () => openModal('modal2');
-document.getElementById('link3').onclick = () => openModal('modal3');
-document.getElementById('link4').onclick = () => openModal('modal4');
-document.getElementById('link5').onclick = () => openModal('modal5');
+document.getElementById('link2').onclick = () => openModal('modal1');
+document.getElementById('link3').onclick = () => openModal('modal2');
+document.getElementById('link4').onclick = () => openModal('modal3');
+document.getElementById('link5').onclick = () => openModal('modal4');
 document.getElementById('link6').onclick = () => openModal('modal5');
 document.getElementById('link7').onclick = () => openModal('modal6');
-document.getElementById('link8').onclick = () => openModal('modal6');
-document.getElementById('link9').onclick = () => openModal('modal7');
+document.getElementById('link8').onclick = () => openModal('modal7');
+document.getElementById('link9').onclick = () => openModal('modal8');
 
 document.querySelectorAll('.close').forEach(button => {
   button.onclick = function() {
