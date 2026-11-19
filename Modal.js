@@ -13,7 +13,8 @@ document.getElementById('link5').onclick = () => openModal('modal4');
 document.getElementById('link6').onclick = () => openModal('modal5');
 document.getElementById('link7').onclick = () => openModal('modal6');
 document.getElementById('link8').onclick = () => openModal('modal7');
-document.getElementById('link9').onclick = () => openModal('modal8');
+document.getElementById('link9').onclick = () => openModal('modal7');
+document.getElementById('link10').onclick = () => openModal('modal8');
 
 document.querySelectorAll('.close').forEach(button => {
   button.onclick = function() {
